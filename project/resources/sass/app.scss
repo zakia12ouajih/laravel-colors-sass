@@ -1,0 +1,32 @@
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcad0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+
+$my-color: pink;
+
+$theme-colors: (
+   primary: $primary,
+   secondary: $secondary,
+   success: $success,
+   info: $info,
+   warning: $warning,
+   danger: $danger,
+   light: $light,
+   dark: $dark,
+   // add any additional color below
+   my-color:$my-color
+);
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
